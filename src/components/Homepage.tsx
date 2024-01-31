@@ -19,7 +19,7 @@ const resources = [
 
 const HomePage: React.FC<HomePageProps> = () => {
   return (
-    <div className="pt-16 block relative">
+    <div className="pt-16 block relative fade-in h-screen">
       <div className="archivo mt-52 w-[682px] text-[40px] text-left text-white font-normal">
         Arian is a front end developer who loves to build things for the web.
       </div>
@@ -40,7 +40,12 @@ const HomePage: React.FC<HomePageProps> = () => {
           </a>
         ))}
       </div>
-      <img src=" " alt="" />
+      <img
+        src="https://ucarecdn.com/4fd4cd98-fd3b-4fb9-aed8-150db8986f04/Screenshot%202024-01-31%20at%2018.41.25.png"
+        alt=""
+        className="-z-10 inline-block absolute top-28 bottom-0 -right-28 opacity-70"
+        width={580}
+      />
     </div>
   );
 };
