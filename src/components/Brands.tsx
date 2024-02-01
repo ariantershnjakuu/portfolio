@@ -1,5 +1,5 @@
 import "../index.css";
-import React, { useEffect } from "react";
+import React from "react";
 import FadeDown from "./FadeDown";
 
 interface BrandsProps {}
