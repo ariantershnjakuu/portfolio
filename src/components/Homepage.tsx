@@ -35,7 +35,7 @@ const HomePage: React.FC<HomePageProps> = () => {
       </p>
       <div className="flex items-center gap-5">
         {resources.map(({ linkHref, linkSrc, width }) => (
-          <a href={linkHref}>
+          <a href={linkHref} rel="noreferrer">
             <img src={linkSrc} alt="" className="" width={width} />
           </a>
         ))}

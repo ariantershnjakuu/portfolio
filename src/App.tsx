@@ -5,6 +5,7 @@ import { useEffect, useState } from "react";
 import Loading from "./components/Loading";
 import Brands from "./components/Brands";
 import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 import "aos/dist/aos.css";
 import Aos from "aos";
 
@@ -29,6 +30,7 @@ function App() {
         <Brands />
       </div>
       <Projects />
+      <Footer />
     </>
   );
 }
