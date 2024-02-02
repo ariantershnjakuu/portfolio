@@ -28,6 +28,10 @@ body {
   line-height: 56px;
 }
 
+.nunito {
+  font-family: Nunito, sans-serif;
+}
+
 .fade-in {
   animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }

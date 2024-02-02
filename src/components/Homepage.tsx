@@ -1,21 +1,8 @@
 // import Arian from "../assets/profile.jpg";
 
-interface HomePageProps {}
+import Resources from "./Resources";
 
-const resources = [
-  {
-    linkHref: "https://www.linkedin.com/in/arian-tershnjaku/",
-    linkSrc:
-      "https://uploads-ssl.webflow.com/5b0eb11723332d2455b73469/5b57e4a86a841038b8bc0af7_linkedin-3-xxl%20copy.png",
-    width: 24,
-  },
-  {
-    linkHref: "https://github.com/ariantershnjakuu",
-    linkSrc:
-      "https://icones.pro/wp-content/uploads/2021/06/icone-github-grise.png",
-    width: 28,
-  },
-];
+interface HomePageProps {}
 
 const HomePage: React.FC<HomePageProps> = () => {
   return (
@@ -28,17 +15,13 @@ const HomePage: React.FC<HomePageProps> = () => {
         alt=""
         className="py-8"
       />
-      <p className="w-[430px] text-[#868686] mb-4 text-lg relative">
+      <p className="w-[430px] text-[#868686] mb-4 text-lg relative nunito">
         I build web applications with a focus on performance and accessibility.
         Currently I'm working at{" "}
         <span className="text-orange-400">Gjirafa.Inc</span>
       </p>
       <div className="flex items-center gap-5">
-        {resources.map(({ linkHref, linkSrc, width }) => (
-          <a href={linkHref} rel="noreferrer">
-            <img src={linkSrc} alt="" className="" width={width} />
-          </a>
-        ))}
+        <Resources />
       </div>
       <img
         src="https://ucarecdn.com/4fd4cd98-fd3b-4fb9-aed8-150db8986f04/Screenshot%202024-01-31%20at%2018.41.25.png"
