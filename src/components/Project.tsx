@@ -29,7 +29,12 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
       className="h-[690px] mt-8 overflow-hidden opacity-80"
     >
       <div className="w-[400px] ml-20 top-16 relative flex flex-col">
-        <img src={project.logoImg} width="120" className="mb-36 brightness-0" />
+        <img
+          alt=""
+          src={project.logoImg}
+          width="120"
+          className="mb-36 brightness-0"
+        />
         <span
           className={`uppercase text-lg tracking-widest teko text-${project.color}`}
         >
