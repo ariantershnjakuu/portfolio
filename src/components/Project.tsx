@@ -33,7 +33,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
           alt=""
           src={project.logoImg}
           width="120"
-          className="mb-36 brightness-0"
+          className="mb-20 brightness-0"
         />
         <span
           className={`uppercase text-lg tracking-widest teko text-${project.color}`}
@@ -41,7 +41,7 @@ const Project: React.FC<ProjectProps> = ({ project }) => {
           {project.position}
         </span>
         <span
-          className={`text-4xl font-medium teko uppercase my-6 text-${project.color}`}
+          className={`text-2xl font-medium teko uppercase my-6 text-${project.color}`}
         >
           {project.projectDescription}
         </span>
